@@ -1,4 +1,4 @@
 # cloudscupweb
-CloudsCup Website Code rep
+CloudsCup Static Website Code rep
 
 Initiated on 11-Aug-2019
