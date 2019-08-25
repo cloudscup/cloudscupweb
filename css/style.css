@@ -18,8 +18,8 @@ Table of Content
 11. Foot-bottom
 */
 
-/*================ 
-    Common CSS 
+/*================
+    Common CSS
 ===============*/
 * {
     margin: 0px;
@@ -36,8 +36,8 @@ a {
     text-decoration: none;
 }
 
-/*================ 
-    Navbar CSS 
+/*================
+    Navbar CSS
 ===============*/
 .navbar-brand > img {
     margin-top: -15px;
@@ -85,8 +85,8 @@ a {
 	box-shadow: inset 0 1px 1px rgba(0),0 0 8px rgba(0);
 }
 
-/*================ 
-    Banner CSS 
+/*================
+    Banner CSS
 ===============*/
 .banner_bg {
 	padding-bottom: 115px;
@@ -176,8 +176,8 @@ a {
     color: #5f3213!important;
 }
 
-/*================ 
-    About CSS 
+/*================
+    About CSS
 ===============*/
 #about_part {
     padding-top: 93px;
@@ -433,8 +433,8 @@ a {
     color: #fff;
 }
 
-/*================ 
-    Counter CSS 
+/*================
+    Counter CSS
 ===============*/
 .counter {
     width: 100%;
@@ -472,8 +472,8 @@ a {
     font-weight:500;
 }
 
-/*================ 
-Today's Menu CSS 
+/*================
+Today's Menu CSS
 ===============*/
 #manu_part {
     padding-top: 46px;
@@ -549,7 +549,7 @@ Today's Menu CSS
     font-size: 20px;
     color: #222222;
     font-family: 'Raleway', sans-serif;
-    font-weight: 500;  
+    font-weight: 500;
 }
 .black_caffee  p span{
     color: #222222;
@@ -558,7 +558,7 @@ Today's Menu CSS
 .black_caffee i{
     color: #ff3a3a;
     font-size: 14px;
-    margin-right: 120px; 
+    margin-right: 120px;
 }
 .black_caffee  i span{
     color: #353535;
@@ -581,8 +581,8 @@ Today's Menu CSS
     float:left;
 }
 
-/*================ 
-    Gallery CSS 
+/*================
+    Gallery CSS
 ===============*/
 #gallery_part {
     padding-top: 100px;
@@ -681,8 +681,8 @@ Today's Menu CSS
     color:#fff;
 }
 
-/*================ 
-    Chef CSS 
+/*================
+    Chef CSS
 ===============*/
 #chef_part {
     padding-top: 100px;
@@ -744,7 +744,7 @@ Today's Menu CSS
     opacity: .5;
     transition: all .5s;
 }
-.image1 img 
+.image1 img
 {
     width: 100%;
 }
@@ -755,8 +755,8 @@ Today's Menu CSS
     -webkit-transform: translateY(-20px);
 }
 
-/*================ 
-  Testimonial CSS 
+/*================
+  Testimonial CSS
 ===============*/
 #testimonial_part{
     padding-top: 95px;
@@ -815,7 +815,7 @@ Today's Menu CSS
     text-align: center;
     font-family:'Raleway', sans-serif;
     font-size: 16px;
-} 
+}
 .text_background p{
     text-align: center;
     font-size: 16px;
@@ -863,8 +863,8 @@ Today's Menu CSS
 	color: #5f3213;
 }
 
-/*================ 
-    Blog CSS 
+/*================
+    Blog CSS
 ===============*/
 #blog {
     padding-top: 95px;
@@ -914,8 +914,8 @@ Today's Menu CSS
 	text-decoration: none;
 }
 
-/*================ 
-    Newsletter CSS 
+/*================
+    Newsletter CSS
 ===============*/
 .newsletter{
     background: #fff9f3;
@@ -965,8 +965,8 @@ Today's Menu CSS
 	border-color: #bcb8b4
 }
 
-/*================ 
-    Footer CSS 
+/*================
+    Footer CSS
 ===============*/
 #footer_part{
     background: #FFF9F3;
@@ -1105,10 +1105,10 @@ Today's Menu CSS
 }
 .back-top-btn:focus {
     color: #fff;
-} 
+}
 
-/*================ 
-    Foot-bottom CSS 
+/*================
+    Foot-bottom CSS
 ===============*/
 #footer-btm {
 	background: #5f3213;
@@ -1122,8 +1122,8 @@ Today's Menu CSS
 }
 
 
-/*================ 
-    Preloader CSS 
+/*================
+    Preloader CSS
 ===============*/
 
 body{
@@ -1221,7 +1221,7 @@ animation-delay: .8s;
 }
 
 a:hover {
-     color: #FFFF!important; 
+     color: #FFFF!important;
     text-decoration: none!important;
 }
 
