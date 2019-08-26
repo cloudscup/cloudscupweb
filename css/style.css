@@ -970,7 +970,7 @@ Today's Menu CSS
     Footer CSS
 ===============*/
 #footer_part{
-    background: #FFF9F3;
+   background: linear-gradient(180deg,hsla(0,0%,100%,0) 60%,#fff),linear-gradient(70deg,#ebfff0 32%,#dbedff);
 	padding-bottom: 30px;
 	/*background: url(../images/footer.jpg);*/
 	background-position: center;
