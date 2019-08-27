@@ -6,9 +6,9 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "sharanu.amg123@gmail.com";
+    $email_to ="cloudscup@gmail.com";// "sharanu.amg123@gmail.com";
  
-    $email_subject = "CloudCup: Notify Me";
+    $email_subject = "CloudsCup: Notify Me";
  
      
  
@@ -44,7 +44,7 @@ if(isset($_POST['email'])) {
  
     
  
-    $email_from = $_POST['email']; // required
+    $email_from ="cloudscup@gmail.com";// $_POST['email']; // required
  
    
       $comments = 'Notify Me Request From:'; // required
@@ -70,7 +70,7 @@ if(isset($_POST['email'])) {
  
   }
  
-    $email_message = "Notify Request details below.\n\n";
+    $email_message = "Following user showed interest in cloudscup products:.\n\n";
  
      
  
@@ -99,8 +99,8 @@ $headers = 'From: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
  
 @mail($email_to, $email_subject, $email_message, $headers);  
-echo "<script>alert('Notified Successfully');</script>";
-echo '<META http-equiv="refresh" content="0;Comingsoon.htm">';
+echo "<script>alert('We'll let you know');</script>";
+echo '<META http-equiv="refresh" content="0;index.html">';
 }
 ?>
 
