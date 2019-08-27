@@ -47,7 +47,7 @@ if(isset($_POST['email'])) {
     $email_from ="cloudscup@gmail.com";// $_POST['email']; // required
  
    
-      $comments = 'Notify Me Request From:'; // required
+      $comments = ''; // required
  
     $error_message = "";
  
