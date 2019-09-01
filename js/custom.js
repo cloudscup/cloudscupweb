@@ -108,152 +108,152 @@ $(function () {
  
 
 // banner js
-$('.banner_slide').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: false,
-    arrows: false,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    infinite: true,
-    speed: 1000,
-    fade: true,
-    cssEase: 'linear',
-});
+//$('.banner_slide').slick({
+//    slidesToShow: 1,
+//    slidesToScroll: 1,
+//    dots: false,
+//    arrows: false,
+//    autoplay: true,
+//    autoplaySpeed: 3000,
+//    infinite: true,
+//    speed: 1000,
+//    fade: true,
+//    cssEase: 'linear',
+//});
 
 //  Counter js start 
-jQuery('.statistic-counter').counterUp({
-    delay: 10,
-    time: 2000
-});
+//jQuery('.statistic-counter').counterUp({
+//    delay: 10,
+//    time: 2000
+//});
 
-// gallary js start
-$('.gallery-slick').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  autoplay: false,
-  arrows: true,
-  autoplaySpeed: 2000,
-  prevArrow: '.slick_prev',
-  nextArrow: '.slick_next',
-  responsive: [
-    {
-    breakpoint: 991,
-    settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-    }
-},
-    {
-    breakpoint: 768,
-    settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-    }
-},
-    {
-    breakpoint: 481,
-    settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-    }
-}
-  ]
-});
+//// gallary js start
+//$('.gallery-slick').slick({
+//  slidesToShow: 1,
+//  slidesToScroll: 1,
+//  autoplay: false,
+//  arrows: true,
+//  autoplaySpeed: 2000,
+//  prevArrow: '.slick_prev',
+//  nextArrow: '.slick_next',
+//  responsive: [
+//    {
+//    breakpoint: 991,
+//    settings: {
+//        slidesToShow: 2,
+//        slidesToScroll: 1,
+//    }
+//},
+//    {
+//    breakpoint: 768,
+//    settings: {
+//        slidesToShow: 2,
+//        slidesToScroll: 1,
+//    }
+//},
+//    {
+//    breakpoint: 481,
+//    settings: {
+//        slidesToShow: 2,
+//        slidesToScroll: 1,
+//    }
+//}
+//  ]
+//});
   
 // gallery portfolio 
-$('.venobox').venobox(); 
+//$('.venobox').venobox(); 
 
-// testimonial js
-$('.clent').slick({
-  infinite: true,
-  slidesToShow: 2,
-  slidesToScroll: 1,
-  dot:false,
-  prevArrow:'<i class="fa fa-chevron-left slick_prev2"></i>',
-  nextArrow:'<i class="fa fa-chevron-right slick_next2"></i>',
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-      }
-    },
-  ]
-});
+//// testimonial js
+//$('.clent').slick({
+//  infinite: true,
+//  slidesToShow: 2,
+//  slidesToScroll: 1,
+//  dot:false,
+//  prevArrow:'<i class="fa fa-chevron-left slick_prev2"></i>',
+//  nextArrow:'<i class="fa fa-chevron-right slick_next2"></i>',
+//  responsive: [
+//    {
+//      breakpoint: 768,
+//      settings: {
+//        slidesToShow: 1,
+//        slidesToScroll: 1,
+//        infinite: true,
+//      }
+//    },
+//  ]
+//});
 
-// Chef js
-$('.shap').slick({
-	slidesToShow: 3,
-	slidesToScroll: 1,
-	autoplay: true,
-    centerMode:true,
-    centerPadding:"0",
-	dot: false,
-	arrows: false,
-	asNavFor: '.shap_info',
-	responsive: [
-    {
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 1
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-      }
-    },
-    {
-      breakpoint: 481,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-      }
-    },		
-  ]
-});
+//// Chef js
+//$('.shap').slick({
+//	slidesToShow: 3,
+//	slidesToScroll: 1,
+//	autoplay: true,
+//    centerMode:true,
+//    centerPadding:"0",
+//	dot: false,
+//	arrows: false,
+//	asNavFor: '.shap_info',
+//	responsive: [
+//    {
+//      breakpoint: 992,
+//      settings: {
+//        slidesToShow: 1
+//      }
+//    },
+//    {
+//      breakpoint: 768,
+//      settings: {
+//        slidesToShow: 1,
+//        slidesToScroll: 1,
+//        infinite: true,
+//      }
+//    },
+//    {
+//      breakpoint: 481,
+//      settings: {
+//        slidesToShow: 1,
+//        slidesToScroll: 1,
+//        infinite: true,
+//      }
+//    },		
+//  ]
+//});
 
-$('.shap_info').slick({
-	slidesToShow: 1,
-	slidesToScroll: 1,
-	asNavFor: '.shap',
-	dots: false,
-	arrows: false,
-});
-   
-//  blog js       
- $('.blog-slick').slick({
-	infinite: true,
-	slidesToShow: 2,
-	slidesToScroll: 1,
-	dot: false,
-	prevArrow: '<i class="fa fa-chevron-left slick_prev"></i>',
-	nextArrow: '<i class="fa fa-chevron-right slick_next"></i>',
-	responsive: [
-    {
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-      }
-    },
-  ]
-});
+//$('.shap_info').slick({
+//	slidesToShow: 1,
+//	slidesToScroll: 1,
+//	asNavFor: '.shap',
+//	dots: false,
+//	arrows: false,
+//});
+//   
+////  blog js       
+// $('.blog-slick').slick({
+//	infinite: true,
+//	slidesToShow: 2,
+//	slidesToScroll: 1,
+//	dot: false,
+//	prevArrow: '<i class="fa fa-chevron-left slick_prev"></i>',
+//	nextArrow: '<i class="fa fa-chevron-right slick_next"></i>',
+//	responsive: [
+//    {
+//      breakpoint: 992,
+//      settings: {
+//        slidesToShow: 1,
+//        slidesToScroll: 1,
+//        infinite: true,
+//      }
+//    },
+//    {
+//      breakpoint: 768,
+//      settings: {
+//        slidesToShow: 1,
+//        slidesToScroll: 1,
+//        infinite: true,
+//      }
+//    },
+//  ]
+//});
 
 
