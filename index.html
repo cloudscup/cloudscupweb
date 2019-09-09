@@ -1,4 +1,4 @@
-﻿﻿<!DOCTYPE html>
+﻿﻿﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -55,7 +55,8 @@
                 <h2 class="bannertexttwo">Arabica and Robusta from highest altitude coffee estates in India</h2>
                 <h1 class="bannertextthree">Personal coffee grinders and brewers</h1>
 
-                <form name="contactform" method="post" action="send_form_email.php" enctype="multipart/form-data" id="contactForm">
+                <!--<form name="contactform" method="post" action="https://javafresh.000webhostapp.com/LatestTemplate/send_form_email.php" enctype="multipart/form-data" id="contactForm">-->
+                  <form name="contactform" onsubmit="submitForm('#contactform'); return false;"  id="contactform">
                   <div class="input-group col-md-6  m-t-1">
 
                     <input type="text" class="form-control" name="email" placeholder="Enter Email..." style="height:40px;">
@@ -277,7 +278,21 @@
     <script src="js/venobox.min.js"></script>-->
     <script type="text/javascript" src="js/custom.js"></script>
 
+<script>
+function submitForm(formId){
+     var formData = $(formId).serialize();
 
+     $.ajax({
+        url: 'https://javafresh.000webhostapp.com/LatestTemplate/send_form_email.php',
+        type: 'POST',
+        data: formData,
+        success:function(response){
+           window.location.reload();
+       }
+   });
+
+}
+</script>
 </body>
 
 </html>
