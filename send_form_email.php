@@ -44,7 +44,7 @@ if(isset($_POST['email'])) {
  
     
  
-    $email_from ="cloudscup@gmail.com";// $_POST['email']; // required
+    $email_from =$_POST['email'];//"cloudscup@gmail.com";// $_POST['email']; // required
  
    
       $comments = ''; // required
@@ -100,7 +100,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 @mail($email_to, $email_subject, $email_message, $headers);  
 echo "<script>alert('We'll let you know');</script>";
-echo '<META http-equiv="refresh" content="0;index.html">';
+echo '<META http-equiv="refresh" content="0;http://www.cloudscup.com">';
 }
 ?>
 
