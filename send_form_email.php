@@ -92,7 +92,7 @@ if(isset($_POST['email'])) {
  
 // create email headers
  
-$headers = 'From: '.$email_from."\r\n".
+$headers = 'From: '.$email_to."\r\n".
  
 'Reply-To: '.$email_from."\r\n" .
  
