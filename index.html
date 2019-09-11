@@ -1,7 +1,5 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <meta content="" charset="UTF-8" />
     <meta name="viewport" content="width=320, initial-scale=1, user-scalable=yes" />
@@ -12,14 +10,11 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    
     <link rel="stylesheet" href="css/navbar_styleSheet.css" />
-   
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
 </head>
 <body>
-
     <nav id="header" class="navbar navbar-fixed-top">
     <div id="header-container" class="container navbar-container">
       <div class="navbar-header">
@@ -243,8 +238,11 @@
       </div>
     </div>
   </section>
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v4.0"></script>
+    <div id="fb-root">
+    </div>
+
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v4.0"></script>
+
     <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
 
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -274,8 +272,10 @@ var postForm = { //Fetch form data
         success:function(response){
            window.location.reload();
        }
+      
    });
-
+ alert("We will let you know");
+        window.location.reload();
 }
 </script>
 
