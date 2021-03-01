@@ -1,0 +1,83 @@
+[
+  {
+    "orderid": 1001,
+    "reference_no": "20",
+    "remarks": "200",
+    "orderby": "NaveenT",
+    "orderimage": "",
+    "orderdate": "Aug 6, 2020 9:58:28 PM",
+    "orderstatus": "PENDING",
+    "ordertotalamt": 200,
+    "itemList": [
+      {
+        "item_code": "X1000",
+        "item_type": "INV",
+        "Itemname": "Coffe Sweatner",
+        "qty": 2,
+        "unit_price": 100
+      }
+    ],
+    "orderacceptedby":"Shop Admin",
+    "assignedto":"Delivery Agent",
+    "contactnumber":"9739766782",
+    "conslat":"15.798120",
+    "conslong":"75.856415",
+    "shooplat":"15.961500",
+    "shoplong":"76.125298",
+   "paymentmode":"COD"
+  },
+  {
+    "orderid": 1002,
+    "reference_no": "20",
+    "remarks": "200",
+    "orderby": "NaveenT",
+    "orderimage": "",
+    "orderdate": "Aug 6, 2020 9:58:28 PM",
+    "orderstatus": "PENDING",
+    "ordertotalamt": 150,
+    "itemList": [
+      {
+        "item_code": "X1000",
+        "item_type": "INV",
+        "Itemname": "Chocolate coffe",
+        "qty": 2,
+        "unit_price": 75
+      }
+    ],
+    "orderacceptedby":"Shop Admin",
+    "assignedto":"Delivery Agent",
+    "contactnumber":"9739766782",
+    "conslat":"15.798120",
+    "conslong":"75.856415",
+    "shooplat":"15.961500",
+    "shoplong":"76.125298",
+ "paymentmode":"COD"
+  },
+  {
+    "orderid": 1002,
+    "reference_no": "20",
+    "remarks": "200",
+    "orderby": "NaveenT",
+    "orderimage": "",
+    "orderdate": "Aug 6, 2020 9:58:28 PM",
+    "orderstatus": "PENDING",
+    "ordertotalamt": 100,
+    "itemList": [
+      {
+        "item_code": "X1000",
+        "item_type": "INV",
+        "Itemname": "Normal coffe",
+        "qty": 2,
+        "unit_price": 50
+      }
+    ],
+    "orderacceptedby":"Shop Admin",
+    "assignedto":"Delivery Agent",
+    "contactnumber":"9739766782",
+    "conslat":"15.798120",
+    "conslong":"75.856415",
+    "shooplat":"15.961500",
+    "shoplong":"76.125298", 
+    "paymentmode":"COD"
+  }
+]

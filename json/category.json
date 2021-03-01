@@ -1,0 +1,40 @@
+[
+  {
+    "categoryid": 1,
+    "catgory": "Ice Creams",
+    "categoryimage": "",
+    "displayorder": 1
+
+  },
+  {
+    "categoryid": 2,
+    "catgory": "Zero Sugar Sweets",
+    "categoryimage": "",
+    "displayorder": 2
+  },
+  {
+    "categoryid": 3,
+    "catgory": "Pastries",
+    "categoryimage": "",
+    "displayorder": 3
+  },
+  {
+    "categoryid": 4,
+    "catgory": "Savories",
+    "categoryimage": "",
+    "displayorder": 4
+  },
+  {
+    "categoryid": 5,
+    "catgory": "Chocolates",
+    "categoryimage": "",
+    "displayorder": 5
+  },
+  {
+    "categoryid": 6,
+    "catgory": "Quick bites",
+    "categoryimage": "",
+    "displayorder": 6
+  }
+
+]

@@ -1,0 +1,28 @@
+{
+  "orderid": 1001,
+  "trckingnum": "T1001",
+  "TrackingDetails": 
+  [
+    {
+      "orderstatus":"pending",
+      "comments":"order accepted by shop admin",
+      "date":"Aug 6, 2020 10:00:00 PM"
+    },
+     {
+      "orderstatus":"assinged",
+      "comments":"Assigned to Delivery agent",
+      "date":"Aug 6, 2020 10:01:00 PM"
+    },
+     {
+      "orderstatus":"out for delivry",
+      "comments":"order out for delivery from Ilkal",
+      "date":"Aug 6, 2020 10:04:00 PM"
+    }
+    ,
+     {
+      "orderstatus":"Delivered",
+      "comments":"Order Delivered",
+      "date":"Aug 6, 2020 11:00:00 PM"
+    }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "orderid": 1001,
+  "reference_no": "20",
+  "noofitems": 1,
+  "Itemname": "Normal coffe",
+  "qty": 2,
+  "unit_price": 50,
+  "orderimage": "",
+  "orderdate": "Aug 6, 2020 9:58:28 PM",
+  "orderstatus": "PENDING",
+  "ordertotalamt": 100,
+  "paidvia": "COD",
+  "transactiono": "0608202009582811",
+  "shippingaddress":"S.M.Amaragatti, Mushigeri,582211",
+  "deliveryby":"DeliveryAgent",
+  "estimatedduration":"1 hr"
+}
